@@ -1,0 +1,31 @@
+.hed{
+    text-align: center;
+    background-color: #b2a8a8;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: #001124;
+}
+button {
+    margin-top: 15%;
+    margin-left: 45%;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(47, 144, 139);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: cursive;
+    letter-spacing: 2px;
+    box-shadow: 5px 4px 50px 8px #b9b9b9d2;
+}
+
+button.clicked {
+    background-color: green;
+}
